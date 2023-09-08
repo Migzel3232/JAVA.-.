@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h2 {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.Tabla {
+    width: 600px;
+    height: 500px;
+    margin: 100px auto; 
+    border: 5px solid;
+    text-align: center; 
+}
+
+.Numero {
+    margin: 10px auto; 
+    display: block; 
+    width: 300px;
+}
+
+p {
+    color: black;
+    font-size: 60px;
+    margin: 10px auto; 
+}
+
+.error {
+    width: 300px;
+    height: 200px;
+    background: cadetblue;
+    margin: 10px auto; 
+}
+
+.Tablas {
+    list-style: none; 
+}
+
+.Tablas li {
+    font-size: 20px;
+    margin: 5px; 
+}
