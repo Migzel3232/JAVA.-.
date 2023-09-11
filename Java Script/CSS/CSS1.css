@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+h2 {
+    margin-top: 100px;
+    margin-left: 120px;
+}
+
+.Tabla {
+    width: 600px;
+    height: 500px;
+    margin: 10px auto; 
+    border: 5px solid white;
+    text-align: center; 
+}
+
+.Numero {
+    margin: 10px auto; 
+    display: block; 
+    width: 300px;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    margin: 10px auto; 
+}
+
+.error {
+    width: 300px;
+    height: 200px;
+    background: cadetblue;
+    margin: 10px auto; 
+}
+
+.Tablas {
+    list-style: none; 
+}
+
+.Tablas li {
+    font-size: 20px;
+    margin: 5px; 
+}
+
+.titulo{
+
+    color: white;
+}
+
+.titulo2{
+
+    color: white;
+}
+
+
+#Resultado {
+    background-color: #3429ff; 
+    color: white; 
+}
+
+#Resultado:hover {
+    background-color: #3a8adf;
+}
+
+#Numero {
+    color: white; 
+}
+
+#Tablas{
+
+color: white;
+
+
+}
+
+.titulo a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .nuevo-div {
+    width: 400px;
+    height: 400px;
+    background-color: transparent;
+   background-image: url(../Imagenes/4d24214499ae7cc8e8df70d8581863ba.gif);
+    padding: 10px;
+
+    margin-left: 15px;
+    margin-bottom: 0; 
+    position: absolute;
+    top: 220px; 
+
+  }

@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/CSS3.css">
+    <title >Ejercicio 3</title>
+</head>
+<body>
+    
+  <center><h1 class="titulo"><a href="../Menu/Menu.html">Ejercicio 7</a></h1></center>
+
+
+  <h2 class="titulo2">Doble</h2>
+   
+   <div class="Tabla"> 
+        
+     <form action="" class="formulario" id="formulario">
+         <p class="letras">Digite un Numero</p>
+        <input type="text" class="Numero" id="Numero" >
+         <p>=</p>
+
+             <ul class="Tablas" id="Tablas">
+ 
+               
+            </ul>
+
+
+
+        <input type="button" id="Resultado" class="Numero dos" onclick="Tabla()" name="Resultado" value="Resultado">
+
+     </form>
+
+     
+
+   </div>
+   
+   <div class="nuevo-div"></div>
+
+
+   <script>
+
+
+    function validarYCalcular() {
+    var N1 = parseInt(document.getElementById('Numero').value);
+
+    if (N1 <= 0 || N1 >= 10) {
+        var tablas = document.getElementById('Tablas');
+        tablas.innerHTML = '';
+        var li = document.createElement('li');
+        li.textContent = 'Ingresa un número válido entre 0 y 10.';
+        tablas.appendChild(li);
+        return
+    }else{
+
+      
+    }
+   }
+
+  </script>
+
+<script 
+
+src="../Java/Javascript7.js"></script>
+
+
+</body>
+</html>
